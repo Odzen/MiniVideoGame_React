@@ -1,171 +1,173 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
-  }
-  
-  ol, ul {
-    padding-left: 30px;
-  }
-  
-  .board {
-    width:2000px;
-  }
-  
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-    font-size:30pt;
-  }
-  
-  .square {
-    background: #ffffff;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
+  font: 14px 'Century Gothic', Futura, sans-serif;
+  margin: 20px;
+}
 
-.square:hover {background: #d3ffd3;}
-  
-  .wall {
-    background: url("https://piskel-imgstore-b.appspot.com/img/d525d0e1-f227-11ea-ae8b-c13cfca3608e.gif");
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.board {
+  width: 2000px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 30pt;
+}
+
+.square {
+  background: #ffffff;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:hover {
+  background: #d3ffd3;
+}
+
+.wall {
+  background: url('https://piskel-imgstore-b.appspot.com/img/d525d0e1-f227-11ea-ae8b-c13cfca3608e.gif');
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
 
 .mod {
-    background: url("https://piskel-imgstore-b.appspot.com/img/1ba8150c-f2c3-11ea-8e7b-8df3cc8852f2.gif");
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
+  background: url('https://piskel-imgstore-b.appspot.com/img/1ba8150c-f2c3-11ea-8e7b-8df3cc8852f2.gif');
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
 }
 
-  .portal {
-    background: url("https://piskel-imgstore-b.appspot.com/img/db676ad4-f224-11ea-81ca-c13cfca3608e.gif");
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
+.portal {
+  background: url('https://piskel-imgstore-b.appspot.com/img/db676ad4-f224-11ea-81ca-c13cfca3608e.gif');
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
 
-  .game-buttons{
-     background: #eeeeee;
-     font-size: 34pt;
-     margin-bottom:10px;
-  }
+.game-buttons {
+  background: #eeeeee;
+  font-size: 34pt;
+  margin-bottom: 10px;
+}
 
 .scorpion {
-      background: url("https://piskel-imgstore-b.appspot.com/img/973b7ec5-f2cc-11ea-bee5-237bb8a70dba.gif")
-          background-size: 34px 34px;
-      border: 1px solid #999;
-      float: left;
-      font-size: 24px;
-      font-weight: bold;
-      line-height: 34px;
-      height: 34px;
-      margin-right: -1px;
-      margin-top: -1px;
-      padding: 0;
-      text-align: center;
-      width: 34px;
+  background: url('https://piskel-imgstore-b.appspot.com/img/973b7ec5-f2cc-11ea-bee5-237bb8a70dba.gif');
+  background-size: 34px 34px;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
 }
 
-  .player {
-      background: url("https://piskel-imgstore-b.appspot.com/img/2c003314-f1f4-11ea-8c63-d18748d4aed6.gif");
-      background-size: 34px 34px;
-      border: 1px solid #999;
-      float: left;
-      font-size: 24px;
-      font-weight: bold;
-      line-height: 34px;
-      height: 34px;
-      margin-right: -1px;
-      margin-top: -1px;
-      padding: 0;
-      text-align: center;
-      width: 34px;
-  }
-  
-  .corazon {
-    background: url("https://piskel-imgstore-b.appspot.com/img/96558e85-f220-11ea-ad7f-c13cfca3608e.gif");
-    background-size: 34px 34px;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
-  
-  
-  .nube {
-    background: url("https://piskel-imgstore-b.appspot.com/img/4c75af51-f221-11ea-860a-c13cfca3608e.gif");
-    background-size: 34px 34px;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
-  
-  .square:focus {
-    outline: none;
-  }
-  
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
-  
-  .game {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
-  }
+.player {
+  background: url('https://i.pinimg.com/originals/52/45/3a/52453a6ea7ee17220e12d81d8a858822.gif');
+  background-size: 34px 34px;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.corazon {
+  background: url('https://piskel-imgstore-b.appspot.com/img/96558e85-f220-11ea-ad7f-c13cfca3608e.gif');
+  background-size: 34px 34px;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.nube {
+  background: url('https://piskel-imgstore-b.appspot.com/img/4c75af51-f221-11ea-860a-c13cfca3608e.gif');
+  background-size: 34px 34px;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
