@@ -887,7 +887,7 @@ class Board extends React.Component {
       case 6: // scorpion
         const newBoardScorpion = this.state.board
         newBoardScorpion[playerPosition.x][playerPosition.y] = 0
-        newBoardScorpion[event.x][event.y] = 0
+        newBoardScorpion[event.x][event.y] = 6
 
         //Nueva regla-Mecanica. Escorpion: Setea los movimientos a 0, y da un nuevo aspecto al tablero, el escorpion mata instantaneamente al jugador
         this.setState({
